@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <defs>
+    <radialGradient id="bgGrad" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0f1f4a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="50" fill="url(#bgGrad)"/>
+
+  <!-- Rocket body -->
+  <path d="M50 18 C44 28 42 38 42 50 L58 50 C58 38 56 28 50 18Z" fill="white"/>
+
+  <!-- Rocket nose tip -->
+  <path d="M50 18 C47 23 45 27 44 31 L56 31 C55 27 53 23 50 18Z" fill="#bfdbfe"/>
+
+  <!-- Rocket window -->
+  <circle cx="50" cy="43" r="4" fill="#1d4ed8" stroke="white" stroke-width="1.5"/>
+
+  <!-- Left fin -->
+  <path d="M42 50 L36 60 L42 58Z" fill="white"/>
+
+  <!-- Right fin -->
+  <path d="M58 50 L64 60 L58 58Z" fill="white"/>
+
+  <!-- Engine base -->
+  <rect x="44" y="50" width="12" height="6" rx="1" fill="#dbeafe"/>
+
+  <!-- Flame outer -->
+  <path d="M45 56 Q47 68 50 65 Q53 68 55 56Z" fill="#f97316" opacity="0.9"/>
+
+  <!-- Flame inner -->
+  <path d="M47 56 Q49 64 50 62 Q51 64 53 56Z" fill="#fef08a"/>
+
+  <!-- Stars -->
+  <circle cx="25" cy="28" r="1.2" fill="white" opacity="0.7"/>
+  <circle cx="72" cy="35" r="0.9" fill="white" opacity="0.6"/>
+  <circle cx="30" cy="65" r="1" fill="white" opacity="0.5"/>
+  <circle cx="68" cy="70" r="1.3" fill="white" opacity="0.7"/>
+  <circle cx="78" cy="25" r="0.8" fill="white" opacity="0.5"/>
+  <circle cx="20" cy="48" r="0.7" fill="white" opacity="0.6"/>
+</svg>
