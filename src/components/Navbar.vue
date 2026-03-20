@@ -5,7 +5,7 @@
         <img src="/assets/logo.svg" alt="Logo" class="h-20 w-auto" />
       </a>
 
-      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-black">
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-white">
         <a href="#o-nas" class="hover:text-sage">O mně</a>
         <a href="#sluzby" class="hover:text-sage">Služby</a>
         <a href="#cenik" class="hover:text-sage">Ceník</a>

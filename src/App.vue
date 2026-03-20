@@ -49,7 +49,7 @@
         <div class="max-w-6xl mx-auto px-6">
           <p class="text-sm tracking-widest uppercase mb-5 text-sage-light">Služby</p>
           <h2 class="font-extrabold text-3xl md:text-4xl leading-snug mb-6 text-sage">
-            Péče, kterou vám nabízím
+            Co pro vás mohu udělat
           </h2>
           <div class="h-0.5 w-16 bg-sage mb-8"></div>
 
@@ -293,7 +293,7 @@
         <div class="flex flex-col md:flex-row items-center gap-6">
           <div class="flex items-center gap-4">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/profile.php?id=100054559834134"
               target="_blank"
               rel="noopener noreferrer"
               class="text-text-dim hover:text-sage"
