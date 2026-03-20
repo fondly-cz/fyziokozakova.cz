@@ -8,25 +8,25 @@
       <section id="o-nas" class="py-28 bg-bg-card">
         <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p class="text-sm tracking-widest uppercase mb-5 text-sage-light">O mně</p>
-            <h2 class="font-extrabold text-3xl md:text-4xl leading-snug mb-6">
+            <p class="reveal text-sm tracking-widest uppercase mb-5 text-sage-light">O mně</p>
+            <h2 class="reveal text-3xl font-extrabold md:text-4xl leading-snug mb-6" style="transition-delay:80ms">
               Péče s osobním<br />
               <em class="text-sage">přístupem</em>
             </h2>
-            <div class="h-0.5 w-16 bg-sage mb-8"></div>
-            <p class="text-base leading-relaxed mb-5 text-text-muted">
+            <div class="reveal h-0.5 w-16 bg-sage mb-8" style="transition-delay:160ms"></div>
+            <p class="reveal text-base leading-relaxed mb-5 text-text-muted" style="transition-delay:240ms">
               Jsme nestátní zdravotnické zařízení poskytující komplexní rehabilitační péči v oboru fyzioterapie.
               Od roku 2007 se o vaše zdraví stará registrovaná fyzioterapeutka
               <strong class="text-text-main font-medium">Ilona Kozáková</strong>.
             </p>
-            <p class="text-base leading-relaxed mb-10 text-text-muted">
+            <p class="reveal text-base leading-relaxed mb-10 text-text-muted" style="transition-delay:320ms">
               Kladu důraz na individuální a komplexní přístup ke každému klientovi.
               Kombinuji moderní fyzioterapeutické metody s tradičními technikami pro dosažení nejlepších výsledků.
             </p>
 
           </div>
 
-          <div class="relative overflow-hidden rounded-2xl shadow-lg">
+          <div class="reveal reveal-right relative overflow-hidden rounded-2xl shadow-lg" style="transition-delay:200ms">
             <img
               src="/assets/ilona-kozakova.jpg"
               alt="Fyzioterapie"
@@ -47,14 +47,14 @@
 
       <section id="sluzby" class="py-28">
         <div class="max-w-6xl mx-auto px-6">
-          <p class="text-sm tracking-widest uppercase mb-5 text-sage-light">Služby</p>
-          <h2 class="font-extrabold text-3xl md:text-4xl leading-snug mb-6 text-sage">
+          <p class="reveal text-sm tracking-widest uppercase mb-5 text-sage-light">Služby</p>
+          <h2 class="reveal font-extrabold text-3xl md:text-4xl leading-snug mb-6 text-sage" style="transition-delay:80ms">
             Co pro vás mohu udělat
           </h2>
-          <div class="h-0.5 w-16 bg-sage mb-8"></div>
+          <div class="reveal h-0.5 w-16 bg-sage mb-8" style="transition-delay:160ms"></div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="rounded-2xl bg-bg-card p-8 border border-[rgba(250,250,250,0.06)] flex flex-col items-center text-center">
+            <div class="reveal rounded-2xl bg-bg-card p-8 border border-[rgba(250,250,250,0.06)] flex flex-col items-center text-center" style="transition-delay:0ms">
               <PersonStanding class="w-10 h-10 text-sage mb-4 animate-walk" />
               <h3 class="text-xl font-semibold text-text-main mb-3">Fyzioterapie</h3>
               <p class="text-text-muted leading-relaxed">
@@ -62,7 +62,7 @@
                 Využívám manuální techniky, mobilizace i cvičení na míru každému pacientovi.
               </p>
             </div>
-            <div class="rounded-2xl bg-bg-card p-8 border border-[rgba(250,250,250,0.06)] flex flex-col items-center text-center">
+            <div class="reveal rounded-2xl bg-bg-card p-8 border border-[rgba(250,250,250,0.06)] flex flex-col items-center text-center" style="transition-delay:100ms">
               <Hand class="w-10 h-10 text-sage mb-4 animate-massage" />
               <h3 class="text-xl font-semibold text-text-main mb-3">Masáže</h3>
               <p class="text-text-muted leading-relaxed">
@@ -70,7 +70,7 @@
                 Uvolní svalové napětí, podpoří prokrvení a přinesou celkovou úlevu tělu i mysli.
               </p>
             </div>
-            <div class="rounded-2xl bg-bg-card p-8 border border-[rgba(250,250,250,0.06)] flex flex-col items-center text-center">
+            <div class="reveal rounded-2xl bg-bg-card p-8 border border-[rgba(250,250,250,0.06)] flex flex-col items-center text-center" style="transition-delay:200ms">
               <div class="flash-zap mb-4">
                 <Zap class="w-10 h-10 text-sage" />
               </div>
@@ -80,7 +80,7 @@
                 a zmírňující bolest kloubů, šlach i svalů.
               </p>
             </div>
-            <div class="rounded-2xl bg-bg-card p-8 border border-[rgba(250,250,250,0.06)] flex flex-col items-center text-center">
+            <div class="reveal rounded-2xl bg-bg-card p-8 border border-[rgba(250,250,250,0.06)] flex flex-col items-center text-center" style="transition-delay:300ms">
               <svg class="w-12 h-12 text-sage mb-4" viewBox="0 0 24 24" fill="currentColor">
                 <path class="drop d1" d="M4,1 C2,5 1,9 1,12 A3,3,0,0,0,7,12 C7,9 6,5 4,1Z"/>
                 <path class="drop d2" d="M12,1 C10,5 9,9 9,12 A3,3,0,0,0,15,12 C15,9 14,5 12,1Z"/>
@@ -99,59 +99,59 @@
       <section id="cenik" class="py-28 bg-bg-card">
         <div class="max-w-6xl mx-auto px-6">
           <div class="max-w-2xl mx-auto">
-            <p class="text-sm tracking-widest uppercase mb-5 text-sage-light">Ceník</p>
-            <h2 class="font-extrabold text-3xl md:text-4xl leading-snug mb-6">
+            <p class="reveal text-sm tracking-widest uppercase mb-5 text-sage-light">Ceník</p>
+            <h2 class="reveal font-extrabold text-3xl md:text-4xl leading-snug mb-6" style="transition-delay:80ms">
               Přehled cen<br />
               <em class="text-sage">všech služeb</em>
             </h2>
-            <div class="h-0.5 w-16 bg-sage mb-8"></div>
-            <p class="text-text-muted leading-relaxed mb-10">
+            <div class="reveal h-0.5 w-16 bg-sage mb-8" style="transition-delay:160ms"></div>
+            <p class="reveal text-text-muted leading-relaxed mb-10" style="transition-delay:240ms">
               Všechny ceny jsou orientační a může je ovlivnit rozsah ošetření.
               Pro přesnou nabídku kontaktujte provozovnu.
             </p>
 
             <div class="space-y-4">
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:0ms">
                 <span class="text-text-main">Vstupní vyšetření, terapie (1. návštěva)</span>
                 <span class="text-sage whitespace-nowrap">1 400 Kč / 60 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:50ms">
                 <span class="text-text-main">Individuální terapie, odborné metody</span>
                 <span class="text-sage whitespace-nowrap">1 000 Kč / 45 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:100ms">
                 <span class="text-text-main">Zdravotní masáž (záda, šíje)</span>
                 <span class="text-sage whitespace-nowrap">1 000 Kč / 45 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:150ms">
                 <span class="text-text-main">Dornova metoda, Breussova masáž</span>
                 <span class="text-sage whitespace-nowrap">1 000 Kč / 45 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:200ms">
                 <span class="text-text-main">Lymfodrenáž – ruční</span>
                 <span class="text-sage whitespace-nowrap">1 400 Kč / 45 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:250ms">
                 <span class="text-text-main">Manuální lifting obličeje</span>
                 <span class="text-sage whitespace-nowrap">1 000 Kč / 45 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:300ms">
                 <span class="text-text-main">Fyzikální terapie – laser</span>
                 <span class="text-sage whitespace-nowrap">180 Kč / 8 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:350ms">
                 <span class="text-text-main">DD proudy, IF, TENS, Trab., MGT</span>
                 <span class="text-sage whitespace-nowrap">200 Kč / 15 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:400ms">
                 <span class="text-text-main">Kombinovaná terapie</span>
                 <span class="text-sage whitespace-nowrap">300 Kč / 5 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:450ms">
                 <span class="text-text-main">Lymfodrenáž přístrojová</span>
                 <span class="text-sage whitespace-nowrap">400 Kč / 40 min</span>
               </div>
-              <div class="flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]">
+              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:500ms">
                 <span class="text-text-main">Tejp</span>
                 <span class="text-sage whitespace-nowrap">200 – 300 Kč</span>
               </div>
@@ -163,28 +163,28 @@
 
       <section id="galerie" class="py-28">
         <div class="max-w-6xl mx-auto px-6">
-          <p class="text-sm tracking-widest uppercase mb-5 text-sage-light">Galerie</p>
-          <h2 class="font-extrabold text-3xl md:text-4xl leading-snug mb-6 text-sage">
+          <p class="reveal text-sm tracking-widest uppercase mb-5 text-sage-light">Galerie</p>
+          <h2 class="reveal font-extrabold text-3xl md:text-4xl leading-snug mb-6 text-sage" style="transition-delay:80ms">
             Naše ordinace
           </h2>
-          <div class="h-0.5 w-16 bg-sage mb-8"></div>
+          <div class="reveal h-0.5 w-16 bg-sage mb-8" style="transition-delay:160ms"></div>
 
           <div class="grid gap-4 md:grid-cols-3">
-            <a href="/assets/ordinace-1.jpg" data-fancybox="galerie" data-caption="Ordinace" class="overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in">
+            <a href="/assets/ordinace-1.jpg" data-fancybox="galerie" data-caption="Ordinace" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in" style="transition-delay:0ms">
               <img
                 src="/assets/ordinace-1.jpg"
                 alt="Ordinace"
                 class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </a>
-            <a href="/assets/ordinace-2.jpg" data-fancybox="galerie" data-caption="Ordinace 2" class="overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in">
+            <a href="/assets/ordinace-2.jpg" data-fancybox="galerie" data-caption="Ordinace 2" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in" style="transition-delay:100ms">
               <img
                 src="/assets/ordinace-2.jpg"
                 alt="Ordinace 2"
                 class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </a>
-            <a href="/assets/ordinace-3.jpg" data-fancybox="galerie" data-caption="Ordinace 3" class="overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in">
+            <a href="/assets/ordinace-3.jpg" data-fancybox="galerie" data-caption="Ordinace 3" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in" style="transition-delay:200ms">
               <img
                 src="/assets/ordinace-3.jpg"
                 alt="Ordinace 3"
@@ -197,7 +197,7 @@
 
       <section id="kontakt" class="py-28 bg-bg-card">
         <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-16">
-          <div>
+          <div class="reveal" style="transition-delay:0ms">
             <p class="text-sm tracking-widest uppercase mb-5 text-sage-light">Kontakt</p>
             <h2 class="font-extrabold text-3xl md:text-4xl leading-snug mb-6">
               Kde nás najdete?<br />
@@ -229,7 +229,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="reveal" style="transition-delay:100ms">
             <p class="text-sm tracking-widest uppercase mb-5 text-sage-light">Ordinační doba</p>
             <div class="h-0.5 w-16 bg-sage mb-8"></div>
 
@@ -268,7 +268,7 @@
             </div>
           </div>
 
-          <div class="rounded-2xl overflow-hidden shadow-lg">
+          <div class="reveal rounded-2xl overflow-hidden shadow-lg" style="transition-delay:200ms">
             <iframe
               class="w-full h-96"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2522.7876758872335!2d15.190929176089823!3d50.0005952517472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e9bfd4265a3bf%3A0x857361f7d0bf1afd!2sKremli%C4%8Dkova%20990%2C%20Kol%C3%ADn!5e0!3m2!1scs!2scz!4v1700000000000!5m2!1scs!2scz"
@@ -326,11 +326,27 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue'
 import Navbar from './components/Navbar.vue'
 import HeroSlider from './components/HeroSlider.vue'
 import { PersonStanding, Hand, Zap } from 'lucide-vue-next'
 
 const yearsOfExperience = new Date().getFullYear() - 2007
+
+onMounted(() => {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible')
+          observer.unobserve(entry.target)
+        }
+      })
+    },
+    { threshold: 0.12 }
+  )
+  document.querySelectorAll('.reveal').forEach((el) => observer.observe(el))
+})
 
 const slides = [
   {
@@ -349,6 +365,20 @@ const slides = [
 </script>
 
 <style scoped>
+/* Reveal animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.reveal-right {
+  transform: translateX(40px);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
 .flash-zap svg {
   animation: flash 1.5s ease-in-out infinite;
 }

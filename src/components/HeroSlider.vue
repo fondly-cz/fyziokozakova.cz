@@ -31,7 +31,7 @@
         <div class="h-0.5 w-16 bg-sage mb-7"></div>
 
         <p class="text-base md:text-lg leading-relaxed mb-10 text-text-muted max-w-xl">
-          Individuální fyzioterapeutická péče s více než 17 lety zkušeností.
+          Individuální fyzioterapeutická péče s více než {{ new Date().getFullYear() - 2007 }} lety zkušeností.
           Registrovaný fyzioterapeut Ilona Kozáková – přístup, na kterém záleží.
         </p>
 
