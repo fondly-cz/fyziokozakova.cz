@@ -29,7 +29,7 @@ jobs:
         with:
           switches: -avzr --delete
           path: dist/
-          remote_path: ${{ secrets.VPS_PATH }}
+          remote_path: /var/lib/docker/volumes/fyziokozakova_data/_data/
           remote_host: ${{ secrets.VPS_HOST }}
           remote_user: ${{ secrets.VPS_USER }}
           remote_port: ${{ secrets.VPS_PORT }}
