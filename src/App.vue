@@ -66,7 +66,7 @@
               <Hand class="w-10 h-10 text-sage mb-4 animate-massage" />
               <h3 class="text-xl font-semibold text-text-main mb-3">Masáže</h3>
               <p class="text-text-muted leading-relaxed">
-                Zdravotní masáže zad a šíje, Dornova metoda a Breussova masáž páteře.
+                Masáže zad a šíje, Dornova metoda a Breussova masáž páteře.
                 Uvolní svalové napětí, podpoří prokrvení a přinesou celkovou úlevu tělu i mysli.
               </p>
             </div>
@@ -76,7 +76,7 @@
               </div>
               <h3 class="text-xl font-semibold text-text-main mb-3">Laserová terapie</h3>
               <p class="text-text-muted leading-relaxed">
-                Neinvazivní léčba pomocí nízkofrekvenčního laseru urychlující hojení tkání, tlumící záněty
+                Neinvazivní terapeutická léčba pomocí laseru urychlující hojení tkání, tlumící záněty
                 a zmírňující bolest kloubů, šlach i svalů.
               </p>
             </div>
@@ -120,7 +120,7 @@
                 <span class="text-sage whitespace-nowrap">1 000 Kč / 45 min</span>
               </div>
               <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:100ms">
-                <span class="text-text-main">Zdravotní masáž (záda, šíje)</span>
+                <span class="text-text-main">Masáž (záda, šíje)</span>
                 <span class="text-sage whitespace-nowrap">1 000 Kč / 45 min</span>
               </div>
               <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:150ms">
@@ -131,10 +131,6 @@
                 <span class="text-text-main">Lymfodrenáž – ruční</span>
                 <span class="text-sage whitespace-nowrap">1 400 Kč / 45 min</span>
               </div>
-              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:250ms">
-                <span class="text-text-main">Manuální lifting obličeje</span>
-                <span class="text-sage whitespace-nowrap">1 000 Kč / 45 min</span>
-              </div>
               <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:300ms">
                 <span class="text-text-main">Fyzikální terapie – laser</span>
                 <span class="text-sage whitespace-nowrap">180 Kč / 8 min</span>
@@ -142,10 +138,6 @@
               <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:350ms">
                 <span class="text-text-main">DD proudy, IF, TENS, Trab., MGT</span>
                 <span class="text-sage whitespace-nowrap">200 Kč / 15 min</span>
-              </div>
-              <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:400ms">
-                <span class="text-text-main">Kombinovaná terapie</span>
-                <span class="text-sage whitespace-nowrap">300 Kč / 5 min</span>
               </div>
               <div class="reveal flex justify-between items-center py-4 border-b border-[rgba(250,250,250,0.08)]" style="transition-delay:450ms">
                 <span class="text-text-main">Lymfodrenáž přístrojová</span>
@@ -156,7 +148,13 @@
                 <span class="text-sage whitespace-nowrap">200 – 300 Kč</span>
               </div>
             </div>
-            <p class="mt-6 text-xs text-text-dim">Omluva nejpozději 24 hodin před domluveným termínem.</p>
+            <div class="mt-8 space-y-3 text-sm text-text-muted">
+              <p>Pracoviště má smlouvu se zdravotní pojišťovnou <strong class="text-text-main font-medium">205 – Česká průmyslová zdravotní pojišťovna (ČPZP)</strong>.</p>
+              <p>Terapie probíhá na přímou platbu.</p>
+              <p>Upozorňuji klienty, že v případě kdy se nedostaví v objednaném termínu, bude mu účtována cena zameškaného výkonu.</p>
+              <p>Omluva nejpozději 24 hodin před domluveným termínem.</p>
+            </div>
+            
           </div>
         </div>
       </section>
