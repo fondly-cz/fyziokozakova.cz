@@ -167,22 +167,29 @@
           </h2>
           <div class="reveal h-0.5 w-16 bg-sage mb-8" style="transition-delay:160ms"></div>
 
-          <div class="grid gap-4 md:grid-cols-3">
-            <a href="/assets/ordinace-1.jpg" data-fancybox="galerie" data-caption="Ordinace" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in" style="transition-delay:0ms">
+          <div class="grid gap-4 md:grid-cols-2 md:grid-rows-3">
+            <a href="/assets/ordinace-0-chodba.jpeg" data-fancybox="galerie" data-caption="Chodba" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in md:row-span-3" style="transition-delay:0ms">
+              <img
+                src="/assets/ordinace-0-chodba.jpeg"
+                alt="Chodba"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </a>
+            <a href="/assets/ordinace-1.jpg" data-fancybox="galerie" data-caption="Ordinace" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in" style="transition-delay:100ms">
               <img
                 src="/assets/ordinace-1.jpg"
                 alt="Ordinace"
                 class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </a>
-            <a href="/assets/ordinace-2.jpg" data-fancybox="galerie" data-caption="Ordinace 2" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in" style="transition-delay:100ms">
+            <a href="/assets/ordinace-2.jpg" data-fancybox="galerie" data-caption="Ordinace 2" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in" style="transition-delay:200ms">
               <img
                 src="/assets/ordinace-2.jpg"
                 alt="Ordinace 2"
                 class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </a>
-            <a href="/assets/ordinace-3.jpg" data-fancybox="galerie" data-caption="Ordinace 3" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in" style="transition-delay:200ms">
+            <a href="/assets/ordinace-3.jpg" data-fancybox="galerie" data-caption="Ordinace 3" class="reveal overflow-hidden rounded-2xl shadow-lg block cursor-zoom-in" style="transition-delay:300ms">
               <img
                 src="/assets/ordinace-3.jpg"
                 alt="Ordinace 3"
