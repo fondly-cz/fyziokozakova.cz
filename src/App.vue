@@ -285,6 +285,8 @@
       </section>
     </main>
 
+    <CookieBar />
+
     <footer class="py-8 bg-bg-base border-t border-border">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
         <div class="flex flex-col items-center md:items-start">
@@ -334,6 +336,7 @@
 import { onMounted } from 'vue'
 import Navbar from './components/Navbar.vue'
 import HeroSlider from './components/HeroSlider.vue'
+import CookieBar from './components/CookieBar.vue'
 import { PersonStanding, Hand, Zap } from 'lucide-vue-next'
 
 const yearsOfExperience = new Date().getFullYear() - 2007
