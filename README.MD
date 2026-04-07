@@ -2,6 +2,11 @@
 
 Website for a physiotherapy practice built with Vue 3, TypeScript, Tailwind CSS, and Vite.
 
+## Updates made by RSYNC
+first run pnpm build
+
+rsync -avzr --delete -e "ssh -i /home/martin/.ssh/fyziokozakova -p 6785" dist/ deploy@37.205.12.63:/home/deploy/www
+
 ## Tech Stack
 
 - **Vue 3** — component framework
