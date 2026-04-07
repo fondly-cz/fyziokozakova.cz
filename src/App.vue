@@ -311,7 +311,7 @@
             </svg>
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/fyziokozakova/"
               target="_blank"
               rel="noopener noreferrer"
               class="text-text-dim hover:text-sage"
