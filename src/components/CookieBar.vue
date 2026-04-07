@@ -79,12 +79,10 @@ function loadGA() {
   script.async = true
   script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`
   document.head.appendChild(script)
-  script.onload = () => {
-    ;(window as any).dataLayer = (window as any).dataLayer || []
-    function gtag(...args: any[]) { (window as any).dataLayer.push(args) }
-    gtag('js', new Date())
-    gtag('config', GA_ID)
-  }
+  ;(window as any).dataLayer = (window as any).dataLayer || []
+  ;(window as any).gtag = function () { (window as any).dataLayer.push(arguments) }
+  ;(window as any).gtag('js', new Date())
+  ;(window as any).gtag('config', GA_ID)
 }
 </script>
 
