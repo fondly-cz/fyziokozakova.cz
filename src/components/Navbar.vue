@@ -31,6 +31,8 @@
       </button>
     </div>
 
+    <Notice />
+
     <div
       v-show="mobileOpen"
       class="md:hidden px-6 py-5 gap-4 flex flex-col bg-bg-base"
@@ -50,6 +52,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import Notice from './Notice.vue'
 
 const mobileOpen = ref(false)
 
